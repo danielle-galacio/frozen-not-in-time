@@ -1,3 +1,36 @@
 html {
-  font-family: 'Fredoka One', cursive;
+  background: repeating-linear-gradient(
+    -45deg,
+    #b3fbff,
+    #b3fbff 10px,
+    #c9fcff 10px,
+    #d4fdff 20px
+  );
+}
+
+body {
+  font-family: "Fredoka One", sans-serif;
+}
+
+h1 {
+  color: #990073;
+}
+
+p {
+ color: #c09;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-content {
+  position: relative;
+  top: 100px;
+  max-width: 19em;
+}
+
+.btn-ghost {
+  border-color: #990073;
+  color: #c09;
 }
